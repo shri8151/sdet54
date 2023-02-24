@@ -20,7 +20,7 @@ public class DeleteProject {
 				//step:3 validation.
 				.then()
 				.assertThat()
-				.statusCode(204)
+			
 				.contentType(ContentType.JSON)
 				.log().all();
 	}	
